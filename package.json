@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "real-time web app with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-hill33/chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-hill33/chat-app/issues"
+  },
+  "homepage": "https://github.com/ben-hill33/chat-app#readme",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
